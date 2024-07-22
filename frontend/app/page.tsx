@@ -65,18 +65,17 @@ export default function Home() {
           backgroundPosition: "center",
           backgroundRepeat: "repeat-y",
         }}>
-          <h1 className="text-center text-[2.5rem] sm:text-[3rem] font-bold font-name bg-gradient-to-r ease-in-out from-violet-300 via-violet-500 to-violet-300 bg-clip-text text-transparent animate-text"
+          <h1 className="text-center text-[2.5rem] sm:text-[3rem] font-bold font-name bg-gradient-to-r ease-in-out from-violet-300 via-violet-500
+           to-violet-300 bg-clip-text text-transparent animate-text"
           >
             &lt;About Me /&gt;
           </h1>
           <div className="flex justify-center">
             <div className="w-[80%] py-5 flex flex-col gap-4 lg:text-xl text-slate-100 2xl:text-2xl">
               <p>
-                I am a passionate full-stack developer with a keen interest in
-                developing scalable and efficient web and app applications. I am a
-                quick learner and a team player who loves to work on challenging
-                projects. I am always open to learning new technologies and
-                frameworks.
+               I am a passionate and dedicated developer with a strong focus on web development and a growing interest in machine learning.
+               My journey in the tech world has been driven by a love for solving problems and creating impactful solutions I am always having a keen
+               interest in learning new technology.
               </p>
               <div
                 className="flex flex-col gap-1 justify-center font-about 2xl:flex-wrap 2xl:gap-0 2xl:flex-row 3xl:flex-row 3xl:w-full 3xl:justify-between">
@@ -94,8 +93,8 @@ export default function Home() {
           </div>
 
           <div className="pt-8 sm:pt-16">
-            <h1 className="text-center text-[2.5rem] sm:text-[3rem] font-bold font-name bg-gradient-to-r ease-in-out via-blue-500 bg-clip-text text-transparent
-              from-green-300 to-green-300 animate-text">
+            <h1  className="text-center text-[2.5rem] sm:text-[3rem] font-bold font-name bg-gradient-to-r
+             ease-in-out from-violet-300 via-violet-500 to-violet-300 bg-clip-text text-transparent animate-text">
               &lt;Tech stack /&gt;
             </h1>
             <div
