@@ -51,7 +51,7 @@ router.post('/', (req, res) => {
     readStream.on('end', async () => {
         res.send({
             success: true,
-            url: `https://awesomesam.dev/player/${shortId}.${fileExtension}`
+            //url: `https:// /player/${shortId}.${fileExtension}`
         });
         // delete the temp file
         fs.unlinkSync(file.tempFilePath);

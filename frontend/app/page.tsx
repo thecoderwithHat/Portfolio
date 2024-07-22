@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 // @ts-ignore
+
+
 import Typewriter from 'typewriter-effect/dist/core';
 import {useEffect} from "react";
 import { motion } from "framer-motion";
@@ -11,6 +13,8 @@ import {fadeIn} from "@/variants";
 
 import backgroundImage from "@/public/background.webp";
 import coverImage from "@/public/cover.jpg";
+import NavBar from '@/components/NavBar'
+
 
 export default function Home() {
 
@@ -22,11 +26,16 @@ export default function Home() {
     });
   })
 
+
   return (
+    
     <main className="overflow-x-hidden">
       <div className="relative flex flex-col w-screen h-screen items-center xl:items-start">
         <div className="absolute bg-contain -z-10 h-screen">
           <Image src={backgroundImage} alt="background_image" className="h-screen w-screen" quality={100}/>
+        </div>
+        <div>
+          <NavBar/>
         </div>
         <div className="xl:w-[80%] xl:ml-[10%]">
           <div
@@ -77,7 +86,7 @@ export default function Home() {
                My journey in the tech world has been driven by a love for solving problems and creating impactful solutions I am always having a keen
                interest in learning new technology.
               </p>
-              
+
               <div
                 className="flex flex-col gap-1 justify-center font-about 2xl:flex-wrap 2xl:gap-0 2xl:flex-row 3xl:flex-row 3xl:w-full 3xl:justify-between">
                 <div className="2xl:w-1/2 2xl:py-2 flex flex-row gap-1">
