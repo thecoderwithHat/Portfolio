@@ -65,8 +65,8 @@ export default function Home() {
           backgroundPosition: "center",
           backgroundRepeat: "repeat-y",
         }}>
-          <h1 className="text-center text-[2.5rem] sm:text-[3rem] font-bold font-name bg-gradient-to-r ease-in-out via-blue-500 bg-clip-text text-transparent
-              from-green-300 to-green-300 animate-text">
+          <h1 className="text-center text-[2.5rem] sm:text-[3rem] font-bold font-name bg-gradient-to-r ease-in-out from-violet-300 via-violet-500 to-violet-300 bg-clip-text text-transparent animate-text"
+          >
             &lt;About Me /&gt;
           </h1>
           <div className="flex justify-center">

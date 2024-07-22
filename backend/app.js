@@ -33,7 +33,7 @@ const limiter = rateLimit({
 app.use(limiter);
 
 app.get('/', (req, res) => {
-  res.send('Hello from AwesomeSam 👋');
+  res.send('Hello from TheCoderwithHat 👋');
 });
 
 app.listen(port, () => {

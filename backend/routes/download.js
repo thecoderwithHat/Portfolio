@@ -5,7 +5,7 @@ const path = require('path');
 const pool = require('../utils/db');
 
 router.get('/', (req, res) => {
-    res.send('Hello from AwesomeSam 👋');
+    res.send('Hello there 👋');
 });
 
 router.get('/:identifier', async(req, res) => {
