@@ -60,7 +60,7 @@ export default function Home() {
 
       <div className="relative flex w-screen h-screen flex-col">
         <div className="pt-12 h-max sm:h-screen" style={{
-          backgroundImage: `url('/stars.gif')`,
+          backgroundImage: `url('/Background1.webp')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "repeat-y",
@@ -77,15 +77,16 @@ export default function Home() {
                My journey in the tech world has been driven by a love for solving problems and creating impactful solutions I am always having a keen
                interest in learning new technology.
               </p>
+              
               <div
                 className="flex flex-col gap-1 justify-center font-about 2xl:flex-wrap 2xl:gap-0 2xl:flex-row 3xl:flex-row 3xl:w-full 3xl:justify-between">
                 <div className="2xl:w-1/2 2xl:py-2 flex flex-row gap-1">
-                  <div>✨</div>
-                  <div>Frontend Developer.</div>
-                </div>
-                <div className="2xl:w-1/2 2xl:py-2 flex flex-row gap-1">
                   <div>📆</div>
                   <div>Developing since 2023.</div>
+                </div>
+                <div className="2xl:w-1/2 2xl:py-2 flex flex-row gap-1 justify-end pr-4">
+                  <div>👨‍💻</div>
+                  <div>Frontend Developer.</div>
                 </div>
                 
               </div>
